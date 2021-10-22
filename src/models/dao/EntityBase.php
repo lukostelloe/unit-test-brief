@@ -2,7 +2,11 @@
 namespace App\models\dao;
 
 use App\models\dao\exceptions\NotFoundException;
+use App\models\dao\exceptions\DeleteException;
+use App\models\dao\exceptions\SaveException;
+use App\models\dao\exceptions\CreateException;
 use App\models\dao\exceptions\ReadException;
+use App\models\dao\exceptions\UpdateException;
 use FFI\Exception;
 use PDO;
 /**
