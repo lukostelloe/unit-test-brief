@@ -1,5 +1,10 @@
 <?php
 namespace App\models\dao;
+
+use App\models\dao\exceptions\NotFoundException;
+use App\models\dao\exceptions\ReadException;
+use FFI\Exception;
+use PDO;
 /**
  * Active Record Pattern paradigm
  * Database Entity Wrapper
